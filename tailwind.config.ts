@@ -8,10 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-            fontFamily: {
-        dm: ['var(--font-dm-sans)', 'sans-serif'],
-        urban: ['var(--font-urbanist)', 'sans-serif'],
-        inter: ['var(--font-inter)', 'sans-serif'],
+       fontFamily: {
+        aboreto: ['var(--font-aboreto)', 'serif'], 
+        nunito: ['var(--font-nunito)', 'sans-serif'], 
       },
     },
   },
