@@ -8,9 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+            fontFamily: {
+        dm: ['var(--font-dm-sans)', 'sans-serif'],
+        urban: ['var(--font-urbanist)', 'sans-serif'],
+        inter: ['var(--font-inter)', 'sans-serif'],
       },
     },
   },
